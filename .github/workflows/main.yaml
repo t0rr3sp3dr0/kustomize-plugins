@@ -32,7 +32,6 @@ jobs:
           - namespace
           - template
           - unnamespaced
-          - iac
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v2.3.4
@@ -88,7 +87,6 @@ jobs:
           - namespace
           - template
           - unnamespaced
-          - iac
     runs-on: ubuntu-latest
     permissions:
       contents: write
