@@ -1,4 +1,4 @@
-module github.com/inloco/kustomize-plugins
+module github.com/t0rr3sp3dr0/kustomize-plugins
 
 go 1.21
 

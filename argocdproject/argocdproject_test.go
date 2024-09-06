@@ -13,7 +13,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/yaml"
 
-	main "github.com/inloco/kustomize-plugins/argocdproject"
+	main "github.com/t0rr3sp3dr0/kustomize-plugins/argocdproject"
 )
 
 var (
@@ -51,7 +51,7 @@ var _ = ginkgo.Describe("ArgoCDProject", func() {
 						},
 						Spec: argov1alpha1.ApplicationSpec{
 							Source: &argov1alpha1.ApplicationSource{
-								RepoURL: "https://github.com/inloco/github-checker.git",
+								RepoURL: "https://github.com/t0rr3sp3dr0/github-checker.git",
 							},
 							Destination: argov1alpha1.ApplicationDestination{
 								Name:      "arn:aws:eks:us:123456789876:cluster/Global-SRE",
@@ -110,7 +110,7 @@ var _ = ginkgo.Describe("ArgoCDProject", func() {
 						},
 						Spec: argov1alpha1.ApplicationSpec{
 							Source: &argov1alpha1.ApplicationSource{
-								RepoURL:        "https://github.com/inloco/github-checker.git",
+								RepoURL:        "https://github.com/t0rr3sp3dr0/github-checker.git",
 								Path:           "namespaces/example/environment-overlays/env/cluster-overlays/cluster",
 								TargetRevision: "HEAD",
 							},
@@ -126,7 +126,7 @@ var _ = ginkgo.Describe("ArgoCDProject", func() {
 						},
 						Spec: argov1alpha1.ApplicationSpec{
 							Source: &argov1alpha1.ApplicationSource{
-								RepoURL:        "https://github.com/inloco/another-checker.git",
+								RepoURL:        "https://github.com/t0rr3sp3dr0/another-checker.git",
 								Path:           "namespaces/example/environment-overlays/env/cluster-overlays/cluster",
 								TargetRevision: "HEAD",
 							},

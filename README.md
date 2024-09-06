@@ -16,14 +16,14 @@ To install all plugins, download the binaries to the Kustomize plugin folder and
 ### Linux 64-bits and/or macOS 64-bits
 
 ```bash
-VERSION=$(wget -qO- https://api.github.com/repos/inloco/kustomize-plugins/releases/latest | jq -r '.tag_name')
-wget -qO- "https://github.com/inloco/kustomize-plugins/releases/download/${VERSION}/install.sh" | sh
+VERSION=$(wget -qO- https://api.github.com/repos/t0rr3sp3dr0/kustomize-plugins/releases/latest | jq -r '.tag_name')
+wget -qO- "https://github.com/t0rr3sp3dr0/kustomize-plugins/releases/download/${VERSION}/install.sh" | sh
 ```
 
 ### Manual Build and Install for Other Systems and/or Architectures
 
 ```bash
-git clone https://github.com/inloco/kustomize-plugins
+git clone https://github.com/t0rr3sp3dr0/kustomize-plugins
 cd kustomize-plugins
 make install
 ```

@@ -41,7 +41,7 @@ spec:
         name: employees
       spec:
         source:
-          repoURL: https://github.com/inloco/employees.git
+          repoURL: https://github.com/t0rr3sp3dr0/employees.git
           targetRevision: argocd-stag
           path: ./k8s/overlays/global-staging/
         destination:

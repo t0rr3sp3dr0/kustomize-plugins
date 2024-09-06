@@ -15,7 +15,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/yaml"
 
-	main "github.com/inloco/kustomize-plugins/namespace"
+	main "github.com/t0rr3sp3dr0/kustomize-plugins/namespace"
 )
 
 var (
